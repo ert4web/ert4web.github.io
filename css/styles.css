@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0 3rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* 
+color: #A51F10;
+color: #DA0090;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kavivanar', cursive;
+    color: #89A611;
+ */
+
+.header-title h1,.article-title{
+    font-family:'Kavivanar', cursive;
+    
+}
+.header-title h1,.article-link{
+color:#DA0090;
+font-weight:normal;
+}
+
+.header{
+    /* border: 2px dashed black; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.header-title{
+    padding-left:1rem;
+}
+
+.header-title p{
+    font-size:0.8rem;
+}
+
+.nav-bar{
+    list-style-type: none;
+    border-top:1px solid #DA0090;
+    border-bottom:1px solid #A51F10; 
+    display:flex;
+    justify-content:center;
+    /* margin:0rem 3rem; */
+
+}
+.nav-items{
+    /* border:1px solid green; */
+    margin:0.5rem 1rem;
+    
+}
+.nav-item{
+    text-decoration:none;
+    color:#A51F10;
+}
+
+.blog-post{
+    padding:1rem 0;
+    /* border: 3px dashed brown; */
+    display:flex;
+    justify-content: space-between;
+    /* align-items:center; */
+}
+
+.post-img{
+    border-radius:1rem;
+    width:200px;
+}
+.article-content-container{
+    /* border:3px dashed green; */
+    margin-left:1rem;
+}
+.article-title{
+    color:#A51F10;
+    }
+.article-date{
+    padding:0.5rem 0;
+    color:#89A611;
+    font-size:0.75rem;
+}
+.article-link{
+    padding:1rem 0; 
+}
+hr{
+    color:#DA0090;
+    padding-top:0.5rem;
+}
+.footer-list{
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+    padding:0.75rem;
+    
+}
+.footer-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:1rem 0;
+}
+.footer-icons{
+    padding:0 2px;
+}
+.footer-icon{
+    width:1.5rem;
+}
+.footer-content p{
+    font-size:0.25rem;
+}
+.hr{
+    border-top:1px solid #DA0090;
+    border-bottom:1px solid #DA0090;
+    padding-bottom:0.1rem;
+}
